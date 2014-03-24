@@ -35,6 +35,7 @@ group :production do
 end
 
 group :development, :test do
+  # gem 'factory-girl'
   gem 'rspec-rails'
 end
 
