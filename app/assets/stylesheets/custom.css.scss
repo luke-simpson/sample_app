@@ -83,10 +83,10 @@ footer {
   border-top: 1px solid $grayMediumLight;
   color: $grayLight;
   a {
-    color: $gray;
-    &:hover {
-      color: $grayDarker;
-    }
+  	color: $gray;
+	&:hover {
+  	  color: $grayDarker;
+  	}
   }
   small {
     float: left;
@@ -94,9 +94,10 @@ footer {
   ul {
     float: right;
     list-style: none;
-    li {
-      float: left;
-      margin-left: 10px;
-    }
+	li {
+	  float: left;
+	  margin-left: 10px;
+	}
   }
+  
 }
