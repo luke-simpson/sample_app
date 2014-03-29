@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe StaticPagesController do  
+describe StaticPagesController do
   describe "Home page" do
     it "should have the content 'Sample App'" do
       get :home
