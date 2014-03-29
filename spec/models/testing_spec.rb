@@ -25,4 +25,5 @@ describe 'testing' do
         expect(string).not_to be_empty
       end
     end
+  end
 end
