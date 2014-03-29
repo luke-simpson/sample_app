@@ -7,5 +7,5 @@ describe StaticPagesController do
         expect(page).to have_content('Sample App')
       end
     end
-  config.include Capybara::DSL
+  end
 end
