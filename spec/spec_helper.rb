@@ -42,4 +42,6 @@ RSpec.configure do |config|
 
   # Manual addition as directed by tutorial
   config.include Capybara::DSL
+  
+  config.include FactoryGirl::Syntax::Methods
 end
